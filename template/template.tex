@@ -1,0 +1,123 @@
+\documentclass[12pt]{article}
+\usepackage[paper=letterpaper,margin=2cm]{geometry}
+
+% images
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+% multiple text columns
+\usepackage{multicol}
+
+\title{Lorem Ipsum}
+\author{Author: Unknown}
+% \date{\today}
+\date{Date: five centuries ago (approx)}
+
+\begin{document}
+\maketitle
+
+\section{First three paragraphs}
+
+\paragraph{First paragraph}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elementum est eu varius fermentum. Nullam iaculis purus eget lorem semper, nec aliquam arcu aliquam. Duis a sem id neque blandit elementum. Phasellus mauris eros, accumsan ut turpis a, porttitor lacinia mauris. Ut ultrices, ligula id varius laoreet, est ipsum vestibulum enim, ac euismod mauris sem eget ipsum. Suspendisse eget auctor nibh. Cras ultrices justo vitae aliquet congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec suscipit tempor justo, non ultrices enim rhoncus id. Nullam vitae cursus neque, vitae ornare elit. Praesent congue fringilla turpis, id pharetra diam maximus vitae. Vestibulum elementum commodo sagittis. Nullam dapibus lectus ut ex posuere bibendum et id purus.
+
+\paragraph{Second paragraph}
+
+Proin eget tortor vitae nulla hendrerit cursus. Sed sit amet scelerisque nisl, id condimentum ipsum. Duis non urna a elit feugiat feugiat. Vivamus quis mi finibus, faucibus eros ut, venenatis nunc. Quisque malesuada velit quis sapien ultricies, ac efficitur leo rhoncus. Duis eu sollicitudin nunc. Quisque condimentum tempus tortor eget porta. Suspendisse fermentum dapibus fermentum. Donec non pretium ante, et aliquet risus. Nam molestie ipsum nisi, vitae pellentesque orci pellentesque ut.
+
+\paragraph{Third paragraph}
+
+Aenean quam odio, posuere quis pulvinar congue, malesuada non justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam nec massa id tortor malesuada tincidunt in non erat. Aenean ornare hendrerit volutpat. Nunc eget tellus nunc. Fusce id semper erat, a iaculis nisl. Donec faucibus accumsan nunc. Vivamus non fermentum massa. Ut pharetra ex vitae sapien suscipit, sed bibendum purus varius. Curabitur pellentesque ligula ac nisl gravida, nec consectetur metus placerat. Aliquam nec velit ut dui euismod suscipit. Praesent mauris nulla, hendrerit vel porttitor convallis, pellentesque in risus. Phasellus sollicitudin lorem lorem, quis cursus libero accumsan a. Duis convallis pellentesque purus at porttitor. Nullam non enim non velit dictum sollicitudin.
+
+\newpage
+
+% good soup
+% https://it.overleaf.com/learn/latex/Multiple_columns
+
+% you can set the space between columns like so
+\setlength{\columnsep}{1cm}
+
+\begin{multicols}{3}
+[
+\section{Other three paragraphs in multicol}
+These paragraphs are put together one after the other and divided into three columns
+]
+Nullam posuere tellus purus, eu tincidunt ex venenatis sit amet. Suspendisse semper varius arcu, ac laoreet felis volutpat sed. Nam ornare consequat odio, sed pretium felis fringilla sit amet. Sed convallis eros ac lacus elementum, ut posuere erat dignissim. Donec id neque nec tellus pellentesque tincidunt ut in tortor. Fusce sit amet tempus neque. Nullam eu venenatis dui, eu ultricies est. Proin fringilla massa ullamcorper sollicitudin sagittis. Sed bibendum lectus sed tristique volutpat. Suspendisse ex ligula, imperdiet ut dui non, iaculis gravida urna. Pellentesque volutpat purus id semper ultrices. Maecenas in feugiat neque. Nulla vehicula mattis ex, quis efficitur quam scelerisque sit amet. Nulla facilisi. Sed eu turpis ut risus eleifend vehicula non a metus. Sed est turpis, finibus luctus facilisis at, consequat ac lectus.
+
+Curabitur non justo id nibh viverra tristique. Donec a felis a purus fringilla mollis eget sed mauris. Phasellus sodales convallis risus vitae elementum. Aenean fringilla sem id quam congue malesuada. Proin consequat bibendum faucibus. Fusce eget dui et arcu venenatis eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed rutrum massa quis vehicula posuere. Donec euismod, nisi venenatis mattis varius, nibh nulla porttitor erat, id sagittis mauris tortor nec quam. Nunc sit amet odio vitae est auctor sollicitudin. Sed gravida auctor ligula ac lobortis. Vestibulum vitae lacus vel augue congue rhoncus sit amet ut sapien. Vestibulum eleifend lacus ut erat pulvinar, at dignissim risus elementum. Duis id lacus ut neque pretium varius. Sed tincidunt purus vestibulum nibh vehicula tristique. Phasellus sit amet lacus purus.
+
+Fusce tincidunt pellentesque quam ac porta. Aliquam ullamcorper, ligula ut laoreet porta, ligula lacus sodales nulla, eget dictum tellus enim eu nulla. Maecenas auctor vitae turpis vel egestas. Etiam sagittis nulla sit amet nulla imperdiet, id mattis nibh rhoncus. Phasellus dapibus in ex sit amet vestibulum. Nullam vitae consectetur tellus. Proin sit amet fringilla nisl, facilisis viverra augue. In eu mollis odio, a egestas libero. Mauris ac ligula eu arcu ornare tristique. Curabitur sit amet libero in nisl pellentesque placerat vitae vitae risus. Aliquam erat volutpat. Curabitur rhoncus dapibus volutpat.
+
+\end{multicols}
+
+\newpage
+
+\section{Two independent columns}
+
+Each paragraph is put in a separate column \\
+
+\begin{minipage}[t]{0.45\textwidth}
+    Donec et sapien consequat, fermentum neque quis, viverra enim. Curabitur justo augue, porttitor et tincidunt ac, efficitur vitae massa. Sed a urna vestibulum, rhoncus massa sed, gravida urna. Quisque sed pharetra magna. Fusce eu molestie velit. Nam nec erat aliquet dui aliquam porttitor id id ante. Fusce id sapien id felis dignissim volutpat. Aenean mi nibh, pharetra vel lorem eu, vestibulum sodales nisl. Nullam vitae finibus mi. In sed pharetra velit, quis auctor dolor. Nulla facilisi.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    Mauris nec tellus tortor. Mauris massa urna, eleifend nec lacinia ac, suscipit eu ex. Suspendisse ut mauris sem. Praesent sit amet libero facilisis, volutpat lectus ut, mollis tortor. Maecenas vitae lorem risus. Aenean vulputate nunc vel posuere aliquet. In at condimentum augue. Fusce ac risus euismod,     venenatis erat eget, eleifend lorem. Curabitur suscipit tempor bibendum. Sed mollis tellus convallis venenatis cursus. Praesent aliquet fringilla ante, vel molestie ex mattis vel. Morbi mi turpis, ultrices in mi imperdiet, lobortis ultricies eros. Fusce risus tortor, euismod eu tristique vel, sollicitudin non diam.
+\end{minipage}
+
+\newpage
+
+\section{Cicero}
+
+This is Cicero
+
+\begin{center}
+\includegraphics[scale=0.5]{images/cicero.png}
+\end{center}
+
+He's not cool enough. I'll lend him my glasses
+
+\begin{center}
+\includegraphics[scale=0.5]{images/cicero_glasses.png}
+\end{center}
+
+\newpage
+
+Let's make a comparison
+
+% These are optional parameters to fine tune the placement of tables and figures:
+%
+% h, here
+% t, top
+% b, bottom
+% p, page of float
+% !, force
+
+\begin{figure}[ht!]
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/cicero.png} % first figure itself
+        \caption{Cicero}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{images/cicero_glasses.png} % second figure itself
+        \caption{The cooler Cicero}
+    \end{minipage}
+\end{figure}
+
+\begin{minipage}[t]{0.45\textwidth}
+    This would be that Cicero would say if he could speak: "oh no I'm so lame"
+\end{minipage}\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    This is what Cicero would say looking at himself with this pair of glasses: "oh yeah I'm so cool"
+\end{minipage}
+
+% use \vspace*{...px} to leave space at the beginning of the page
+% otherwise it will be ignored in that case
+\vspace{50px}
+
+\begin{center}
+    Cicero likes vertical space and centered text
+\end{center}
+
+\end{document}
